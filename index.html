@@ -34,7 +34,7 @@
         <div class="middle">
             <h2>Let's do this!</h2>
             <div class="form">
-                <form action="" method="post">
+                <form action="" method="post" id="myform">
                     <label for="first">FIRST NAME</label>
                     <input id="first" type="text" name="first" required>
 
@@ -53,14 +53,13 @@
                     <label for="confirm">CONFIRM PASSWORD</label>
                     <input id="confirm" type="password" name="password" required>
 
-                    <button type="reset">Submit</button>
-
                 </form>
             </div>
         </div>
 
         <div class="bottom">
-
+            <button form = "myform" type="reset">Create Account</button>
+            <p>Already have an account? <a href="index.html">Log in</a></p>
         </div>
     </div>
 </body>
