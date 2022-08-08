@@ -113,6 +113,7 @@ body {
     flex-direction: column;
 }
 
+/* top right styling*/
 .top, .bottom {
     height:35%;
     background-color: rgb(241, 239, 239);
@@ -123,13 +124,13 @@ body {
 }
 
 .top h2 {
-    margin-top: 15vh;
+    margin-top: 13vh;
 }
 
 h2{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3rem;
-    margin-left: 7%;
+    margin-left: 4vw;
     font-weight: bolder;
 }
 
@@ -137,9 +138,57 @@ em {
     font-style: italic;
 }
 
+/* middle right styling*/
+
 .middle {
     height: 30%;
     background-color: white;
     box-shadow: 5px 5px 5px lightgray, 0px -2px 2px lightgray; 
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+label {
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    width: 20vw;
+    height: 3vh;
+}
+
+
+
+input:valid{
+    border: 2px solid lightgreen;
+}
+
+input:focus{
+    border: 2px solid blue;
+    outline: none;
+    box-shadow: inset 2px 2px 3px gray, inset -2px -2px 3px gray;
+}
+
+
+
+.form {
+    margin-left: 4vw;
+}
+
+#myform {
+    display: flex;
+    gap: 3vw;
+    row-gap: 2vh;
+    flex-wrap: wrap;
+}
+
+.unit {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
