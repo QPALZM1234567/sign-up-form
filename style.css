@@ -49,3 +49,21 @@ table {
 
 /*End of Meyer Reset*/
 
+body {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+}
+
+.left {
+    width: 37.5%;
+    height: 100%;
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+}
+
+.right {
+    width: 62.5%;
+    height: 100%;
+    background-color: lightblue;
+}
