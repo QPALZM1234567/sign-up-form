@@ -61,7 +61,7 @@ body {
 
 .left {
     width: 37.5%;
-    height: 100%;
+    height: 100vh;
     background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
 
@@ -107,6 +107,39 @@ body {
 
 .right {
     width: 62.5%;
-    height: 100%;
+    height: 100vh;
     background-color: lightblue;
+    display:flex;
+    flex-direction: column;
+}
+
+.top, .bottom {
+    height:35%;
+    background-color: rgb(241, 239, 239);
+}
+
+.top .text {
+    max-width: 80%;
+}
+
+.top h2 {
+    margin-top: 15vh;
+}
+
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    margin-left: 7%;
+    font-weight: bolder;
+}
+
+em {
+    font-style: italic;
+}
+
+.middle {
+    height: 30%;
+    background-color: white;
+    box-shadow: 5px 5px 5px lightgray, 0px -2px 2px lightgray; 
+    z-index: 1;
 }
