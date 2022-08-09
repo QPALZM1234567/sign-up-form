@@ -70,6 +70,10 @@ body {
     align-items: center;
 }
 
+.left a {
+    color: white;
+}
+
 @font-face {
     font-family: norse;
     src: url(fonts/Norse-Bold.otf);
